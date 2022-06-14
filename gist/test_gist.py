@@ -44,3 +44,40 @@ def test_function_as_slow() -> None:
     pass
 
 
+class Company:
+    def __init__(self, name, stock_symbol):
+        self.name = name
+        self.stock_symbol = stock_symbol
+
+    def __str__(self):
+        return f'{self.name} : {self.stock_symbol}'
+
+
+@pytest.fixture
+def company() -> Company:
+    return Company(name="amazone", stock_symbol="AMZ")
+
+
+def test_company(company: Company) -> None:
+    print(f"This is a Company{company}")
+    assert company.name == 'amazone'
+
+
+@pytest.mark.parametrize(
+    'company_name',
+    ['Instagram','Tiktok','Facebook'],
+    ids=['Instagram TEST', 'Tiktok TEST', 'Facebook TEST']
+)
+
+
+def test_multiple_company_names(company_name: str) -> None:
+    print(f"\nTest With {company_name}")
+
+def raise_covid19():
+    raise ValueError("CoronaVirus Exception")
+
+
+def test_covid19_should_pass() -> None:
+    with pytest.raises(ValueError) as e:
+        raise_covid19()
+    assert str(e.value) == "CoronaVirus Exception"
