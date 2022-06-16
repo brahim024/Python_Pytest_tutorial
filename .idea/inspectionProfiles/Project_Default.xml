@@ -1,0 +1,193 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="ComposeUnknownValues" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyBroadExceptionInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="32">
+            <item index="0" class="java.lang.String" itemvalue="djangorestframework" />
+            <item index="1" class="java.lang.String" itemvalue="Django" />
+            <item index="2" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="3" class="java.lang.String" itemvalue="pillow" />
+            <item index="4" class="java.lang.String" itemvalue="Djang" />
+            <item index="5" class="java.lang.String" itemvalue="mysqlclient" />
+            <item index="6" class="java.lang.String" itemvalue="django-mysql" />
+            <item index="7" class="java.lang.String" itemvalue="django-core-headers" />
+            <item index="8" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="9" class="java.lang.String" itemvalue="django-redis" />
+            <item index="10" class="java.lang.String" itemvalue="faker" />
+            <item index="11" class="java.lang.String" itemvalue="stripe" />
+            <item index="12" class="java.lang.String" itemvalue="django-celery-beat" />
+            <item index="13" class="java.lang.String" itemvalue="six" />
+            <item index="14" class="java.lang.String" itemvalue="python-crontab" />
+            <item index="15" class="java.lang.String" itemvalue="amqp" />
+            <item index="16" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="17" class="java.lang.String" itemvalue="kombu" />
+            <item index="18" class="java.lang.String" itemvalue="click" />
+            <item index="19" class="java.lang.String" itemvalue="click-didyoumean" />
+            <item index="20" class="java.lang.String" itemvalue="celery" />
+            <item index="21" class="java.lang.String" itemvalue="django-timezone-field" />
+            <item index="22" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="23" class="java.lang.String" itemvalue="click-repl" />
+            <item index="24" class="java.lang.String" itemvalue="click-plugins" />
+            <item index="25" class="java.lang.String" itemvalue="pyparsing" />
+            <item index="26" class="java.lang.String" itemvalue="vine" />
+            <item index="27" class="java.lang.String" itemvalue="billiard" />
+            <item index="28" class="java.lang.String" itemvalue="pytest" />
+            <item index="29" class="java.lang.String" itemvalue="pytest-cov" />
+            <item index="30" class="java.lang.String" itemvalue="pytest-django" />
+            <item index="31" class="java.lang.String" itemvalue="redis" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="W292" />
+          <option value="E302" />
+          <option value="E305" />
+          <option value="E402" />
+          <option value="E303" />
+          <option value="E501" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N802" />
+          <option value="N806" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyProtectedMemberInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyRedeclarationInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="app.core.admin._" />
+          <option value="django.utils.translation.ugettext_lazy" />
+          <option value="app.core.models.Tag.objects" />
+          <option value="app.core.models.Ingredient.objects" />
+          <option value="app.core.models.Recipe.objects" />
+          <option value="app.recipe.test_ingredients_api.Ingredient" />
+          <option value="app.recipe.serializers.save" />
+          <option value="common.views.LoginAPIView" />
+          <option value="core.models.Product.objects" />
+          <option value="administrator.views.ProductGenericsAPIView.create" />
+          <option value="core.models.Link.objects" />
+          <option value="core.models.Order.objects" />
+          <option value="django.db.models.fields.CharField.__add__" />
+          <option value="core.models.OrderItem.objects" />
+          <option value="asyncio.exceptions.APIException" />
+          <option value="rbt_core.core.addresses.models.Locality.objects" />
+          <option value="celery.*" />
+          <option value="django.db.models.fields.CharField.title" />
+          <option value="type.*" />
+          <option value="django.db.models.fields.related.ManyToManyField.filter" />
+          <option value="core_apps.profiles.models.Profile.followed_by" />
+          <option value="django.db.models.fields.related.ManyToManyField.remove" />
+          <option value="django.db.models.fields.related.ManyToManyField.add" />
+          <option value="django.db.models.fields.related.ManyToManyField.all" />
+          <option value="django.db.models.fields.related.OneToOneField.username" />
+          <option value="core_apps.profiles.models.Profile.objects" />
+          <option value="core_apps.profiles.models.Profile.DoesNotExist" />
+          <option value="core_apps.articles.read_time_engine.ArticleReadTimeEngine.words_per_minute" />
+          <option value="django.db.models.fields.related.ForeignKey.username" />
+          <option value="django.db.models.fields.related.ForeignKey.title" />
+          <option value="django.db.models.fields.related.ForeignKey.views" />
+          <option value="core_apps.articles.models.Tag.objects" />
+          <option value="core_apps.articles.models.Article.DoesNotExist" />
+          <option value="core_apps.favorites.models.Favorite.objects" />
+          <option value="core_apps.articles.views.pagination" />
+          <option value="core_apps.articles.models.Article.objects" />
+          <option value="core_apps.articles.models.ArticleViews.objects" />
+          <option value="core_apps.ratings.models.Rating.objects" />
+          <option value="core_apps.reactions.models.Reaction.DoesNotExist" />
+          <option value="core_apps.comments.models.Comment.objects" />
+          <option value="core_apps.comments.models.Comment.DoesNotExist" />
+          <option value="factory" />
+          <option value="api.coronavstech.companies.models.Company.objects" />
+          <option value="companies.models.Company.objects" />
+          <option value="companies.models.Company.object" />
+          <option value="faker.generator.Generator.first_name" />
+          <option value="faker.generator.Generator.last_name" />
+          <option value="faker.generator.Generator.password" />
+          <option value="rbt_core.core.products.models.Brand.objects" />
+          <option value="rbt_core.core.products.models.Manufacturer.objects" />
+          <option value="rbt_core.core.orders.models.Order.items" />
+          <option value="rbt_core.core.orders.models.TrackingOrder.objects" />
+          <option value="datetime.datetime.datetime" />
+          <option value="rbt_core.core.orders.models.TimeTaken.objects" />
+          <option value="rbt_core.core.orders.managers.constance" />
+          <option value="rbt_core.core.orders.admin.dal_admin_filters" />
+          <option value="decouple.config" />
+          <option value="rbt_core.core.orders.models.TrackingOrder.DoesNotExist" />
+          <option value="rbt_core.core.orders.models.Order.payments" />
+          <option value="rbt_core.core.products.admin.modeltranslation" />
+          <option value="rbt_core.core.products.admin.dal_admin_filters" />
+          <option value="rbt_core.core.products.admin.adminsortable2" />
+          <option value="django.db.models.fields.related.ForeignKey.order_ref" />
+          <option value="videos.models.Video.objects" />
+          <option value="videos.models.VideoProxy.objects" />
+          <option value="videos.models.VideoPublishedProxy.objects" />
+          <option value="videos.models.VideoAllProxy.objects" />
+          <option value="django.db.models.fields.DecimalField.*" />
+          <option value="videos.models.Video.playlist_set" />
+          <option value="videos.models.Video.playlist_featured" />
+          <option value="categories.models.Category.objects" />
+          <option value="django.db.models.fields.related.ForeignKey.model_class" />
+          <option value="playlists.models.Playlist.id" />
+          <option value="super.get_queryset" />
+          <option value="rbt_core.core.users.models.User.orders" />
+          <option value="rbt_core.core.orders.models.Order.tookan_tasks" />
+          <option value="rbt_core.core.orders.tasks.sentry_sdk" />
+          <option value="rbt_core.core.orders.tasks.onesignal_sdk" />
+          <option value="rbt_core.core.orders.models.Order.id" />
+          <option value="rbt_core.core.notify.models.NotifyPushOrder.objects" />
+          <option value="mock" />
+          <option value="pdfkit" />
+          <option value="rbt_core.core.stores.models.Store.working_hours" />
+          <option value="django.db.models.fields.related.ForeignKey.name_en" />
+          <option value="django.db.models.fields.related.ForeignKey.name_el_GR" />
+          <option value="django.db.models.fields.related.ForeignKey.unit_value" />
+          <option value="django.db.models.fields.related.ForeignKey.category" />
+          <option value="django.db.models.fields.related.ForeignKey.price" />
+          <option value="django.db.models.fields.related.ForeignKey.images" />
+          <option value="django.db.models.fields.related.ForeignKey.is_active" />
+          <option value="rbt_core.core.stores.admin.StoreInventoryOperationAdmin.product" />
+          <option value="rbt_core.core.stores.admin.StoreInventoryAdmin.product" />
+          <option value="faker.providers" />
+          <option value="rbt_core.core.stores.managers.sentry_sdk" />
+          <option value="algoliasearch_django" />
+          <option value="django.db.models.fields.related.OneToOneField.total_price" />
+          <option value="django.db.models.fields.related.OneToOneField.tip" />
+          <option value="django.db.models.fields.related.OneToOneField.shipping_cost" />
+          <option value="django.db.models.fields.related.OneToOneField.driver_notes" />
+          <option value="django.db.models.fields.related.OneToOneField.address" />
+          <option value="django.db.models.fields.related.OneToOneField.barcode" />
+          <option value="django.db.models.fields.related.OneToOneField.id" />
+          <option value="django.db.models.fields.related.OneToOneField.user" />
+          <option value="django.db.models.fields.related.OneToOneField.delivery_datetime" />
+          <option value="rbt_core.core.tookan.models.TookanTask.id" />
+          <option value="rbt_core.core.products.models.Product.product_stores" />
+          <option value="django.db.models.fields.related.ForeignKey.parent" />
+          <option value="django.db.models.fields.files.ImageField.url" />
+          <option value="rbt_core.core.products.models.ProductImage.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
