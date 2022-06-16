@@ -12,6 +12,7 @@
 # if we want to run just slow tests type: pytest src/.../test_functions.py -v \
 #     -p no:warnings -m slow
 # if we want to run just not slow tests type: pytest gist/test_gist.py -v -p no:warnings -m "not slow"
+# -s it's a command to print
 import pytest
 
 
